@@ -196,3 +196,35 @@ button:hover {
     transform: translateX(-3px);
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    background: #1c1c1c;
+    color: gold;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: gold;
+    color: #000;
+}
+
+.designer-link {
+    color: gold;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.designer-link:hover {
+    text-decoration: underline;
+}
