@@ -15,14 +15,20 @@ body {
 }
 
 .card {
-    background: #111;
+    background:
+        linear-gradient(135deg, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)),
+        url("logo.jpg") no-repeat;
+    background-position: center 45%;
+    background-size: 360px 850px;
+
     width: 360px;
     padding: 30px 25px;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(218,165,32,0.25);
     text-align: center;
-    animation: fadeUp 1s ease;
 }
+
+
 
 @keyframes fadeUp {
     from {opacity:0; transform:translateY(40px);}
@@ -96,7 +102,7 @@ button:hover {
 
 
 .logo-img {
-    width: 180px;
+    width: 220px;
     margin-bottom: 10px;
 }
 
@@ -228,3 +234,4 @@ button:hover {
 .designer-link:hover {
     text-decoration: underline;
 }
+
