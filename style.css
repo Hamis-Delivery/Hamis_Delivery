@@ -19,7 +19,7 @@ body {
         linear-gradient(135deg, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)),
         url("logo.jpg") no-repeat;
     background-position: center 45%;
-    background-size: 360px 850px;
+    background-size: 360px 890px;
 
     width: 360px;
     padding: 30px 25px;
@@ -235,3 +235,6 @@ button:hover {
     text-decoration: underline;
 }
 
+.no-bg {
+    background: #111 !important;
+}
