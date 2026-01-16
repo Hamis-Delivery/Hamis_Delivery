@@ -99,3 +99,100 @@ button:hover {
     width: 220px;
     margin-bottom: 10px;
 }
+
+.top-btn {
+    display: block;
+    background: linear-gradient(135deg, #2c2c2c, #000);
+    color: gold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border: 1px solid gold;
+    transition: 0.3s;
+}
+
+.top-btn:hover {
+    background: gold;
+    color: #000;
+}
+
+
+.call-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.call-box a {
+    flex: 1;
+    background: #1c1c1c;
+    color: gold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.call-box a:hover {
+    background: gold;
+    color: #000;
+}
+
+
+.vehicle-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.vehicle-option {
+    flex: 1;
+    background: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.vehicle-option input {
+    display: none;
+}
+
+.vehicle-option:hover {
+    border-color: gold;
+}
+
+.vehicle-option input:checked + span {
+    color: gold;
+}
+
+.back-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: #1c1c1c;
+    border: 1px solid gold;
+    border-radius: 10px;
+    color: gold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+.back-arrow:hover {
+    background: gold;
+    color: #000;
+    transform: translateX(-3px);
+}
+
